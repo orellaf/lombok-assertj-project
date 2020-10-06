@@ -86,7 +86,7 @@
 					<classes>
 						<param>fr.lta.testing.ExpectedDataLocationPath</param>
 					</classes>
-					<targetDir>src/test/java</targetDir>
+					<targetDir>${project.basedir}/src/test/java</targetDir>
 					<generateBddAssertions>false</generateBddAssertions>
 					<generateSoftAssertions>false</generateSoftAssertions>
 					<generateJUnitSoftAssertions>false</generateJUnitSoftAssertions>
@@ -99,7 +99,7 @@
 				<configuration>
 					<filesets>
 						<fileset>
-							<directory>src/test/java</directory>
+							<directory>${project.basedir}/src/test/java</directory>
 							<includes>
 								<include>**/*Assert.java</include>
 								<!-- <include>**/*.log</include> -->
